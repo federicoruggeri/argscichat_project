@@ -1,4 +1,4 @@
-# ArgSciChat: A Dataset of Argumentative Conversational Discussions on Scientific Papers
+# ArgSciChat: A Dataset of Argumentative Dialogues on Scientific Papers
 
 This is the official repository of the paper "**ArgSciChat: A Dataset of Argumentative Conversational Discussions on Scientific Papers**".
 
