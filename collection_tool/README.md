@@ -48,7 +48,7 @@ Before launching the data collection tool, please check the following configurat
 This information is used in the `worlds.py/read_from_db()` function. This function retrieves user information, such as dialogue sessions and authentication code.
 Such retrieved data is used to validate the user and to retrieve its dialogue session data: role determination, paper content retrieval, etc..
 
-In our experiments, [our data collection website](http://arg-sci-chat.ukp.informatik.tu-darmstadt.de/) was associated to an internal Mysql database.
+In our experiments, our data collection website was associated to an internal Mysql database.
 The database was used to stored participants information, such as authentication code, DE session slots, P session slots, paper content, etc..
 
 This information is then exploited by the Mephisto data collection application to validate if users are connecting to the right dialogue session and retrieve corresponding information in case of success.
