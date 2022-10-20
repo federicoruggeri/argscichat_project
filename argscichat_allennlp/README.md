@@ -44,7 +44,7 @@ For what concerns model training, you can try different input combinations and m
 The `context` field accepts the following inputs: `[query, article, history, facts]`. For instance, if you want to run
 the model with just the `query` as input, simply define `'context': ["query"]`.
 
-Similarly to [QASPER](https://github.com/allenai/qasper-led-baseline), you can train your model with direct facts selection supervision 
+Similarly to [QASPER](https://github.com/allenai/qasper-led-baseline), you can train your model with direct rationales selection supervision 
 by enabling `use_evidence_scaffold`. The code remains unchanged with the only exception that in QASPER there are multiple valid answers
 for a given query.
 
@@ -53,7 +53,7 @@ for a given query.
 If you want to reproduce our experiments, we have used the following seeds: `[15371, 15372, 15373]`.
 Other seeds (e.g. numpy) are fixed and are equal to the ones employed in [QASPER](https://github.com/allenai/qasper-led-baseline).
 
-### Facts selection baselines
+### Rationales selection baselines
 
 Run `scripts/fact_selection_baselines.py` to compute baseline performance on all test folds.
 
